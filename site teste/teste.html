@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Teste de aprendizado HTML</title>
+<meta name="description" content="Este é um teste para aprender HTML">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <header>
+    <h1>Teste para aprender HTML</h1>
+    <p>Espero que você aprenda muito aqui!</p>
+ </header>   
+ <main>
+    <section>
+    <h2>Sobre o projeto</h2>    
+    <p>Isso foi desenvolvido para melhorar conhecimentos em <abbr title= "HYPER TEXT MARKUP LANGUAGE">HTML</abbr></p>
+    </section>
+    <section>
+    <h2>Pergunta 1: Qual linguagem se usa para estruturar páginas web?</h2>    
+    <form>
+      <input type = "radio"  value="Python" id="p1a" name ="pergunta1">
+      <label for="p1a">Python</label><BR>
+      <input type = "radio"  value="Javascript" id="p1b" name ="pergunta1">
+      <label for="p1b">Javascript</label><BR>
+      <input type = "radio"  value="C#" id="p1C" name ="pergunta1">
+      <label for="p1C">C#</label><BR>
+    </form>
+    </section>
+    <SECTION>
+      <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o ___</h2>
+    <form>      
+      <input type="text" id="p2" name="pergunta2" placeholder="Digite a resposta">
+   </form>
+    </SECTION>
+    <section>
+      <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+      <form>
+         <input type ="password" id="p3" name="pergunta 3" placeholder="Digite a senha">
+      </form>
+    </section>
+    <section>
+      <h2>Pergunta 4: Em q ano HTML lançou sua primeira versão?</h2>
+      <form>
+         <input type="date" id="p4" name="pergunta4">
+      </form>
+    </section>
+    <section>
+      <H2>Pergunta 5: quais das linguagens são de programação?</H2>
+      <form>
+         <input type = "checkbox" id = "p5a" name="pergunta5" value="javascript">
+         <label for="p5a">javascript</label>
+         <input type = "checkbox" id = "p5b" name="pergunta5" value="java">
+         <label for="p5b">java</label>
+         <input type = "checkbox" id = "p5c" name="pergunta5" value="c#">
+         <label for="p5c">c#</label>
+      </form>
+    </section>
+    <section>
+     <h2>Pergunta 6: faça upload de um arquivo de código HTML </h2> 
+     <form>
+      <input type="file" id="p6" name="pergunta6">
+     </form>
+    </section>
+    <section>
+      <h2>Pergunta 7: selecione o atributo do input q define seu tipo:</h2>
+      <form>
+         <select name="pergunta7" id="p7">
+          <option value="id">id</option>
+          <option value="type">type</option>
+          <option value="placeholder">placeholder</option>
+         </select>
+      </form>
+    </section>
+    <section>
+      <h2>Pergunta 8:qual linguagem de programação é apresentada pelo logotipo abaixo?</h2>
+     <figure>
+      <img src = "gif.png" alt="gif de um céu estrelado">
+   <figcaption>figura 1: gif de um céu estrelado</figcaption>
+   </figure> 
+    <form>      
+      <input type="text" id="p8" name="pergunta8" placeholder="Digite a resposta">
+    </form>
+    </section>
+    <section>
+      <h2>tabela de pontuação</h2>
+      <table border="1">
+        <thead>
+<tr>
+  <th>Pontuação</th>
+  <th>Avaliação</th>
+</tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>0-2</td>
+            <td>Não desista!</td>
+         </tr>
+         <tr>
+            <td>3-4</td>
+            <td>Precisa melhorar, que tal estudar mais?</td>
+         </tr>
+          <tr>
+            <td>5-7</td>
+            <td>Satisfatório</td>
+         </tr>
+          <tr>
+            <td>8</td>
+            <td>Perfeito!</td>
+         </tr>
+        </tbody>
+     <tfoot>
+      <tr>
+        <td colspan="2">Boa sorte na próxima</td>
+      </tr>
+     </tfoot>
+      </table>
+    </section>
+    <section>
+      <h2>Verifique as respostas</h2>
+     <details>
+      <summary>Clique aqui pra vê-las</summary>
+      <ol>
+        <li>HTML</li>
+        <li>Domínio</li>
+        <li>ihewfihfei</li>
+        <li>1991</li>
+        <li>Javascript, Java</li>
+        <li>Arquivo deve ter extensão .html</li>
+        <li>type</li>
+        <li>java</li>
+      </ol>
+   </details>
+    </section>
+<section>
+  <h2>Feedback</h2>
+  <fieldset>
+ <legend>Contato</legend>   
+  <form>
+   <label for="name">Nome:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+ <label for="comentarios">Comentários:</label>
+    <textarea  id="comentarios" name="comentarios" rows="4" cols="50"  placeholder="Digite aqui"></textarea><br>
+    <button onclick="alert('FEEDBACK ENVIADO')">Envie o feedback</button>
+  </form>
+  </fieldset>
+</section>
+  </main>
+  <footer>
+    <p class="paragrafo-footer">&copy Quiz de programação.Todos os direitos reservados</p>
+    <p class="paragrafo-footer">Pra conhecer mais, <a href="https://br.pinterest.com/" target="_blank">clique</a></p>
+  </footer>
+</body>
+</html>
